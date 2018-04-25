@@ -42,5 +42,9 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "bower": "^1.8.4",
+    "npm": "^6.0.0"
   }
 }
