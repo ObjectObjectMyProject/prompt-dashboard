@@ -78,6 +78,28 @@
     &__slider.owl-carousel.owl-loaded {
       display: flex;
       align-items: center;
+      .owl-dots:not(.disabled) {
+        position: absolute;
+        bottom: 100px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .owl-dot {
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background-color: $white;
+          margin-left: rem(8);
+          outline: none;
+          transition: .2s all linear;
+          border: 3px solid transparent;
+          &.active {
+            border: 3px solid $red+50%;
+            background-color: transparent;
+          }
+        }
+      }
       &-item {
         display: flex;
         justify-content: center;
