@@ -1,0 +1,21 @@
+// Colors
+$purple: #2b2d5c;
+$purple-gradient: linear-gradient(to right top, #2b2d5c, #313366, #373970, #3d407a, #434685);
+$black: #262626;
+$dark: #343b4c;
+$dark-gray: #6674A6;
+$white: #fafafa;
+
+// Fonts
+$bold: 'RobotoBold';
+$reg: 'RobotoRegular';
+$regIt: 'RobotoRegularItalic';
+
+
+// Functions
+
+$browser-context: 16;
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}

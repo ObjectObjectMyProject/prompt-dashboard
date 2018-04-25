@@ -1,0 +1,46 @@
+.sign {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-title {
+    font-family: $bold;
+    font-size: rem(100);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: $black;
+    margin-bottom: 15px;
+  }
+  &-descr {
+    font-family: $reg;
+    color: #9E9E9E;
+  }
+  &-picture {
+    width: 60%;
+    height: 100vh;
+    background-image: url('../../images/sign.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    &__wrap {
+      background-color: rgba(43, 45, 92, 0.95);
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__wrapper {
+      padding: 0 rem(60);
+    }
+  }
+}
