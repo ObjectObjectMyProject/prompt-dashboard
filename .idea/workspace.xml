@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="569901e6-1c3a-4f8f-a607-c82c45789d50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/pages/_login.scss" afterPath="$PROJECT_DIR$/app/styles/pages/_login.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +28,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="231" column="32" lean-forward="true" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
+                <state relative-caret-position="391">
+                  <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#svg#0;n#div#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -502,7 +500,7 @@
       <updated>1524663979036</updated>
       <workItem from="1524663980486" duration="7865000" />
       <workItem from="1524680793418" duration="2058000" />
-      <workItem from="1524688169497" duration="8746000" />
+      <workItem from="1524688169497" duration="9319000" />
     </task>
     <task id="LOCAL-00001" summary="Add main page for project">
       <created>1524700042917</created>
@@ -511,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524700042917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add slider main page">
+      <created>1524700691861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524700691861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18669000" />
+    <option name="totallyTimeSpent" value="19242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +562,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add main page for project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main page for project" />
+    <MESSAGE value="Add slider main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slider main page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -796,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="231" column="32" lean-forward="true" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
+        <state relative-caret-position="391">
+          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#div#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
