@@ -177,6 +177,46 @@
     &__element {
       $context: &;
       margin-bottom: 30px;
+      &.success {
+
+        #{$context}-title {
+          color: $green;
+        }
+
+        input {
+          border-bottom-color: $green;
+        }
+        svg {
+          fill: $green;
+        }
+        #{$context}-exception {
+          background-color: $green;
+          color: $white;
+        }
+      }
+      &.error {
+
+        #{$context}-title {
+          color: $red;
+        }
+
+        input {
+          border-bottom-color: $red;
+        }
+        svg {
+          fill: $red;
+        }
+        #{$context}-exception {
+          background-color: $red;
+          color: $white;
+        }
+      }
+      &-exception {
+        font-size: rem(13);
+        padding: 5px rem(7);
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
       &-label {
         display: block;
         width: 100%;

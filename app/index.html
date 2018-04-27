@@ -13,6 +13,7 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.css" />
     <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="/bower_components/jquery-quick-modal/css/quick-modal.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -262,7 +263,7 @@
                 </div>
               </label>
             </div>
-            <div class="signIn-form__element">
+            <div class="signIn-form__element error">
               <label class="signIn-form__element-label">
                 <div class="signIn-form__element-title">
                   Пароль
@@ -282,18 +283,111 @@
                     </svg>
                   </div>
                 </div>
+                <div class="signIn-form__element-exception">
+                  Ошибка аутентификации!
+                </div>
 
               </label>
             </div>
             <div class="signIn-form__button-wrap">
               <button class="signIn-form__button-signIn" > Войти </button>
-              <button class="signIn-form__button-SignRegister" > Зарегистрироваться </button>
+              <button class="signIn-form__button-SignRegister openRegistrationModal" data-modal-id="registration-modal" > Зарегистрироваться </button>
             </div>
           </form>
         </section>
       </div>
     </div>
   </section>
+  <!-- Modal -->
+    <div id="registration-modal" class="qm-modal registration">
+      <a href="#" class="qm-close-modal"></a>
+      <div class="registration-wrapper">
+        <h2> Регистрация </h2>
+        <form class="signIn-form" action="" novalidate>
+          <div class="signIn-form__element">
+            <label class="signIn-form__element-label">
+              <div class="signIn-form__element-title">
+                Почтовый адрес
+              </div>
+              <div class="signIn-form__element-input">
+                <input type="text">
+                <div class="signIn-form__element-icon">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       viewBox="0 0 483.3 483.3" style="enable-background:new 0 0 483.3 483.3;" xml:space="preserve">
+                        <path d="M424.3,57.75H59.1c-32.6,0-59.1,26.5-59.1,59.1v249.6c0,32.6,26.5,59.1,59.1,59.1h365.1c32.6,0,59.1-26.5,59.1-59.1
+                          v-249.5C483.4,84.35,456.9,57.75,424.3,57.75z M456.4,366.45c0,17.7-14.4,32.1-32.1,32.1H59.1c-17.7,0-32.1-14.4-32.1-32.1v-249.5
+                          c0-17.7,14.4-32.1,32.1-32.1h365.1c17.7,0,32.1,14.4,32.1,32.1v249.5H456.4z"/>
+                        <path d="M304.8,238.55l118.2-106c5.5-5,6-13.5,1-19.1c-5-5.5-13.5-6-19.1-1l-163,146.3l-31.8-28.4c-0.1-0.1-0.2-0.2-0.2-0.3
+                          c-0.7-0.7-1.4-1.3-2.2-1.9L78.3,112.35c-5.6-5-14.1-4.5-19.1,1.1c-5,5.6-4.5,14.1,1.1,19.1l119.6,106.9L60.8,350.95
+                          c-5.4,5.1-5.7,13.6-0.6,19.1c2.7,2.8,6.3,4.3,9.9,4.3c3.3,0,6.6-1.2,9.2-3.6l120.9-113.1l32.8,29.3c2.6,2.3,5.8,3.4,9,3.4
+                          c3.2,0,6.5-1.2,9-3.5l33.7-30.2l120.2,114.2c2.6,2.5,6,3.7,9.3,3.7c3.6,0,7.1-1.4,9.8-4.2c5.1-5.4,4.9-14-0.5-19.1L304.8,238.55z"
+                          />
+                    </svg>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div class="signIn-form__element">
+            <label class="signIn-form__element-label">
+              <div class="signIn-form__element-title">
+                Пароль
+              </div>
+              <div class="signIn-form__element-input">
+                <input type="password">
+                <div class="signIn-form__element-icon">
+                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                      <path d="M463.748,48.251c-64.336-64.336-169.013-64.335-233.349,0.001c-43.945,43.945-59.209,108.706-40.181,167.461
+                        L4.396,401.536c-2.813,2.813-4.395,6.621-4.395,10.606V497c0,8.291,6.709,15,15,15h84.858c3.984,0,7.793-1.582,10.605-4.395
+                        l21.211-21.226c3.237-3.237,4.819-7.778,4.292-12.334l-2.637-22.793l31.582-2.974c7.178-0.674,12.847-6.343,13.521-13.521
+                        l2.974-31.582l22.793,2.651c4.233,0.571,8.496-0.85,11.704-3.691c3.193-2.856,5.024-6.929,5.024-11.206V363h27.422
+                        c3.984,0,7.793-1.582,10.605-4.395l38.467-37.958c58.74,19.043,122.381,4.929,166.326-39.046
+                        C528.084,217.266,528.084,112.587,463.748,48.251z M421.313,154.321c-17.549,17.549-46.084,17.549-63.633,0
+                        s-17.549-46.084,0-63.633s46.084-17.549,63.633,0S438.861,136.772,421.313,154.321z"/>
+                    </svg>
+                </div>
+              </div>
+
+            </label>
+          </div>
+          <div class="signIn-form__element">
+            <label class="signIn-form__element-label">
+              <div class="signIn-form__element-title">
+                Повторите пароль
+              </div>
+              <div class="signIn-form__element-input">
+                <input type="password">
+                <div class="signIn-form__element-icon">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="487.23px" height="487.23px" viewBox="0 0 487.23 487.23" style="enable-background:new 0 0 487.23 487.23;"
+	 xml:space="preserve">
+                    <path d="M55.323,203.641c15.664,0,29.813-9.405,35.872-23.854c25.017-59.604,83.842-101.61,152.42-101.61
+                      c37.797,0,72.449,12.955,100.23,34.442l-21.775,3.371c-7.438,1.153-13.224,7.054-14.232,14.512
+                      c-1.01,7.454,3.008,14.686,9.867,17.768l119.746,53.872c5.249,2.357,11.33,1.904,16.168-1.205
+                      c4.83-3.114,7.764-8.458,7.796-14.208l0.621-131.943c0.042-7.506-4.851-14.144-12.024-16.332
+                      c-7.185-2.188-14.947,0.589-19.104,6.837l-16.505,24.805C370.398,26.778,310.1,0,243.615,0C142.806,0,56.133,61.562,19.167,149.06
+                      c-5.134,12.128-3.84,26.015,3.429,36.987C29.865,197.023,42.152,203.641,55.323,203.641z"/>
+                    <path d="M464.635,301.184c-7.27-10.977-19.558-17.594-32.728-17.594c-15.664,0-29.813,9.405-35.872,23.854
+                      c-25.018,59.604-83.843,101.61-152.42,101.61c-37.798,0-72.45-12.955-100.232-34.442l21.776-3.369
+                      c7.437-1.153,13.223-7.055,14.233-14.514c1.009-7.453-3.008-14.686-9.867-17.768L49.779,285.089
+                      c-5.25-2.356-11.33-1.905-16.169,1.205c-4.829,3.114-7.764,8.458-7.795,14.207l-0.622,131.943
+                      c-0.042,7.506,4.85,14.144,12.024,16.332c7.185,2.188,14.948-0.59,19.104-6.839l16.505-24.805
+                      c44.004,43.32,104.303,70.098,170.788,70.098c100.811,0,187.481-61.561,224.446-149.059
+                      C473.197,326.043,471.903,312.157,464.635,301.184z"/>
+                </svg>
+                </div>
+              </div>
+
+            </label>
+          </div>
+          <div class="signIn-form__button-wrap">
+            <button class="signIn-form__button-signIn" > Войти </button>
+            <button class="signIn-form__button-SignRegister openRegistrationModal" data-modal-id="registration-modal" > Зарегистрироваться </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -310,6 +404,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="/bower_components/jquery-quick-modal/js/jquery.quick-modal.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
