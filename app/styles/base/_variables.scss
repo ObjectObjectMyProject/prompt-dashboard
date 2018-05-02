@@ -24,3 +24,26 @@ $browser-context: 16;
 @function rem($pixels, $context: $browser-context) {
   @return #{$pixels/$context}rem;
 }
+
+
+// Media Mixins
+
+
+$xs: 0;
+$sm: '(max-width: 480px)';
+$md: '(max-width: 768px)';
+$lg: '(max-width: 992px)';
+$xl : '(min-width: 1200px)';
+$non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
+$retina: '(min--moz-device-pixel-ratio: 1.5),
+                    (-o-min-device-pixel-ratio: 3/2),
+                    (-webkit-min-device-pixel-ratio: 1.5),
+                    (min-device-pixel-ratio: 1.5),
+                    (min-resolution: 144dpi),
+                    (min-resolution: 1.5dppx)';
+
+@mixin res($media) {
+  @media only screen and #{$media} {
+    @content;
+  }
+}

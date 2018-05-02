@@ -3,8 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/images/svg/logo.svg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/images/svg/mail.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/images/svg/manager.svg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/images/svg/password.svg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/images/svg/refresh-button.svg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/images/svg/rocket.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/images/svg/success.svg" charset="UTF-8" />
   </component>
 </project>

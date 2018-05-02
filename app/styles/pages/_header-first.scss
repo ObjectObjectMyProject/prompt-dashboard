@@ -1,0 +1,28 @@
+.header-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  border-bottom: none;
+  @include res($md){
+    bottom: 30px;
+    top: inherit;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+  }
+  &-logo {
+    text-decoration: none;
+    color: $white;
+    font-size: rem(20);
+    padding: rem(20);
+    display: block;
+    @include res($md){
+      color: $purple;
+    }
+    span {
+      font-family: $light;
+    }
+  }
+}
