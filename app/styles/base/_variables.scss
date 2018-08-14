@@ -33,6 +33,7 @@ $xs: 0;
 $sm: '(max-width: 480px)';
 $md: '(max-width: 768px)';
 $lg: '(max-width: 992px)';
+$lg-x: '(min-width: 993px) and (max-width: 1199px)';
 $xl : '(min-width: 1200px)';
 $non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
 $retina: '(min--moz-device-pixel-ratio: 1.5),

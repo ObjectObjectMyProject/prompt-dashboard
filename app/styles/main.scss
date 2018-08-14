@@ -82,6 +82,16 @@ body {
   margin-top: 1.5rem;
 }
 
+body #registration-modal {
+  width: 40%;
+  @include res($lg){
+    width: 66%;
+  }
+  @include res($md){
+    width: 80%;
+  }
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 48em) {
   /* Remove the padding we set earlier */
