@@ -4,3 +4,6 @@ dist
 bower_components
 test/bower_components
 .idea
+vue-app/node_modules
+vue-app/dist
+
