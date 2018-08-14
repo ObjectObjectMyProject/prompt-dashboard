@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="569901e6-1c3a-4f8f-a607-c82c45789d50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/base/_variables.scss" afterPath="$PROJECT_DIR$/app/styles/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/pages/_login.scss" afterPath="$PROJECT_DIR$/app/styles/pages/_login.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +48,7 @@
           <file leaf-file-name="quick-modal.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bower_components/jquery-quick-modal/css/quick-modal.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
+                <state relative-caret-position="447">
                   <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
                   <folding />
                 </state>
@@ -76,7 +72,7 @@
           <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/styles/base/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="454">
+                <state relative-caret-position="501">
                   <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
                   <folding />
                 </state>
@@ -528,7 +524,7 @@
       <workItem from="1524743492649" duration="385000" />
       <workItem from="1524834460575" duration="4270000" />
       <workItem from="1527346784115" duration="693000" />
-      <workItem from="1534211785384" duration="3750000" />
+      <workItem from="1534211785384" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="Add main page for project">
       <created>1524700042917</created>
@@ -544,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524700691861</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="@1 - Add more Flexible containers">
+      <created>1534216595247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534216595247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28934000" />
+    <option name="totallyTimeSpent" value="29863000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,7 +564,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5044543" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17597471" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
@@ -571,7 +573,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16359697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17984831" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17984831" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -591,7 +593,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add main page for project" />
     <MESSAGE value="Add slider main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add slider main page" />
+    <MESSAGE value="@1 - Add more Flexible containers" />
+    <option name="LAST_COMMIT_MESSAGE" value="@1 - Add more Flexible containers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1026,7 +1029,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/base/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="501">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
@@ -1034,7 +1037,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/jquery-quick-modal/css/quick-modal.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="447">
           <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
